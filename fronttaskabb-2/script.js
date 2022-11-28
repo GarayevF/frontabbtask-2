@@ -13,4 +13,5 @@ close.addEventListener('click', function() {
 
 lang.addEventListener('click', function(){
     document.querySelector('#langdiv').classList.toggle('active-1')
+    document.querySelector('#langicon').classList.toggle('active-2')
 })

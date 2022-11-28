@@ -9,7 +9,7 @@ a{
 }
 
 #Header-1{
-    padding: 8px 0;
+    padding: 16px 0;
     background-color: #F6F7F8;
 }
 
@@ -87,6 +87,14 @@ a{
     display: block !important;
 }
 
+.active-2{
+    transform: rotate(-180deg);
+}
+
+#langicon{
+    transition: 0.3s;
+}
+
 #Search{
     background-color: #CCD1D1;
     padding: 2rem;
@@ -127,12 +135,13 @@ a{
 
 #langdiv{
     position: absolute;
-    top: 35px;
+    top: 50px;
     right: 100px;
     width: 100px;
     background-color: #CCD1D1;
     text-align: center;
     display: none;
+    padding: 0 1rem;
 }
 
 #langdiv p{
