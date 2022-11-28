@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+#Header-1{
+    padding: 8px 0;
+    background-color: #F6F7F8;
+}
+
+.container{
+    padding: 0 2rem;
+}
+
+#Header-1 .header-all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Header-1 .left a{
+    margin-right: 18px;
+    font-weight: 100;
+    color: #666;
+}
+
+
+#Header-1 .right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.search i{
+    margin-right: 10px;
+    color: #666;
+}
+
+.search p{
+    color: #666;
+}
+
+.phone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.phone i{
+    margin-right: 10px;
+    color: #666;
+}
+
+.phone p{
+    color: #666;
+}
+
+.lang{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lang p{
+    color: #666;
+    margin-left: 10px;
+}
+
+#axtarish{
+    cursor: pointer;
+}
+
+.active-1{
+    display: block !important;
+}
+
+#Search{
+    background-color: #CCD1D1;
+    padding: 2rem;
+    display: none;
+}
+
+#Search .all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #CCD1D1;
+}
+
+.inp-div{
+    width: 90%;
+}
+
+#srchinp{
+    outline: none;
+    border: none;
+    padding: 1rem;
+    background-color: #CCD1D1;
+    width: 100%;
+    font-size: 40px;
+}
+
+.icon-div{
+    width: 5%;
+}
+
+#closeicon{
+    cursor: pointer;
+}
+
+#lang{
+    cursor: pointer;
+}
+
+#langdiv{
+    position: absolute;
+    top: 35px;
+    right: 100px;
+    width: 100px;
+    background-color: #CCD1D1;
+    text-align: center;
+    display: none;
+}
+
+#langdiv p{
+    margin: 10px 0;
+}
+
+#triangle{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background-color: #CCD1D1;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: -10px;
+    right: 33px;
+}
+
