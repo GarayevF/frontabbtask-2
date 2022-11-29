@@ -158,3 +158,26 @@ a{
     right: 33px;
 }
 
+
+#circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: red;
+    opacity: 0.7;
+    z-index: 1;
+}
+
+#square{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: blue;
+    z-index: -1;
+}
